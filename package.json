@@ -1,0 +1,20 @@
+{
+  "name": "restaurant-sim",
+  "version": "0.0.1",
+  "description": "Restaurant Simulator",
+  "main": "./bin/index.js",
+  "bin": {
+    "rsim": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Reynolds",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "prompt": "^1.3.0"
+  }
+}
